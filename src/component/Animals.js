@@ -37,7 +37,7 @@ addVote = () => {
     <Card.Text>
      number of votes {this.state.votes}
     </Card.Text>
-    <Button onClick={this.addVote} variant="primary">vote</Button>
+    <Button onClick={this.addVote} variant="primary">Vote</Button>
   </Card.Body>
 </Card>
 
