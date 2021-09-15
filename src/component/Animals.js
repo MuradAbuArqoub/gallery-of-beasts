@@ -23,6 +23,8 @@ addVote = () => {
 
       
       <div>
+
+               
                 
       {/* <img onClick={this.addVote} src={this.props.image_url} alt={this.props.keyword} width={400} />
 

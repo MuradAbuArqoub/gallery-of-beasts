@@ -2,15 +2,16 @@ import React from "react";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
 import Main from "./component/Main";
-import RenderModal from "./component/RenderModal";
+import Dropdown from "./component/DropDown";
+
 
 class App extends React.Component {
   render() {
     return (
       <div>
+        <Dropdown/>
         <Header/>
         <Main/>
-        <RenderModal/>
         <Footer/>
       </div>
     )
