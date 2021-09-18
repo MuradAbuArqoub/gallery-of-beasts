@@ -4,9 +4,10 @@ class Header extends React.Component {
   render(){
     return(
         <div>
-        <h1>i like tacos</h1>
+        <h1 className= "text-center text-info mt-3">i like tacos</h1>
         </div>
     )
   }
+  
 }
 export default Header

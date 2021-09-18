@@ -1,40 +1,64 @@
 import React from "react";
-import Form from 'react-bootstrap/Form'
+// import Form from 'react-bootstrap/Form'
+// import Data from './Data.json'
+
 
 class DropDown extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
+    
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         hornsData: Data,
+    //         horns: ""
+    //     }
+    // }
 
-        // submitHandler = async (event) => {
-        //     event.preventDefault();
-        //     await this.setState({
-        //       userName: event.target.userName.value,
-        //       age: event.target.age.value,
-        //       breed: event.target.breed.value,
-        //       likeCats: event.target.likeCats.checked,
-        //       showModal: true,
-        //     });
+    // clickHandler = (event) => {
+    //     event.preventDefault();
+    //     this.setState({
+    //         horns: event.target.value,
+    //         hornsData: this.filtering(event.target.value)
+    //     })
+    // }
 
-        //     closeHandler = () => {
-        //         this.setState({
-        //           showModal: false,
-        //         });
-    }
-    render() {
-        return (
-            <div>
-                {/* <Form onSubmit = {}> */}
-                <Form.Select aria-label="Default select example">
-                    <option>Open this select menu</option>
-                    <option value={this.props.horns}>1</option>
-                    <option value={this.props.horns}>2</option>
-                    <option value={this.props.horns}>3</option>
-                    <option value={this.props.horns}>100</option>
-                </Form.Select>
-            </div>
-        );
-    }
+    // filtering = (value) => {
+    //     let newArr = [];
+    //     newArr = Data.filter(element => {
+    //         if(value === 0){
+    //             return element;
+    //         }
+            
+    //         else {if(value === element.horns){
+    //             return true;}
+                
+    //             else{
+    //                 return false;
+    //             }
+                
+    //         }
+           
+    //     })
+    //     return newArr;
+    // }
+
+
+
+    // render() {
+    //     return (
+    //         <div>
+    //             {/* <Form onSubmit = {}> */}
+    //             <Form.Select onChange={this.clickHandler} aria-label="Default select example">
+                    
+    //                 <option value="0">all</option>
+    //                 <option value="1">uno</option>
+    //                 <option value="2">dos</option>
+    //                 <option value="3">tres</option>
+    //                 <option value="100">nice crock bro</option>
+
+    //             </Form.Select>
+    //         </div>
+    //     );
+    // }
 }
 
 export default DropDown
